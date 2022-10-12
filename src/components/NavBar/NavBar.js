@@ -9,11 +9,10 @@ const NavBar = () => {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home" className="fs-2 fw-bold">Quizhoo</Navbar.Brand>
+        <Navbar.Brand href="/" className="fs-2 fw-bold ">Quizhoo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Link to='/home' className="nav-link">Home</Link>
             <Link to='/topics' className="nav-link">Topics</Link>
             <Link to='/statistic' className="nav-link">Statistic</Link>
             <Link to='/blog' className="nav-link">Blog</Link>
